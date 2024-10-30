@@ -1,5 +1,5 @@
 describe('My Second Test', () => {
-    it('First Second Case', () => {
+    it('Second Test Case', () => {
       cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/');
       cy.get('.search-keyword').type('ca');
       cy.wait(2000);
